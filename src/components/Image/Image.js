@@ -1,9 +1,13 @@
 import React, { Fragment } from 'react';
 
+import './Image.scss';
+
 const image = props => {
   return (
     <Fragment>
-      <img  src={props.imageUrl}/>
+      <img className={props.classType} src={props.imageUrl} alt={props.alt}/>
     </Fragment>
   )
 }
+
+export default image;

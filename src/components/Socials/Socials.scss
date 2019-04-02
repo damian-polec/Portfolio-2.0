@@ -1,0 +1,16 @@
+.header {
+  z-index: 200;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 2.5rem;
+    transition: 0.4s;
+    :hover {
+      transition: 0.4s;
+      color: #b30202;
+    }
+  }
+}

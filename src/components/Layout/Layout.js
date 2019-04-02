@@ -1,12 +1,12 @@
 import React from 'react';
 
+import { Route } from 'react-router-dom';
+
 import Main from '../../pages/Main/Main';
 
 const layout = props => {
   return (
-    <Main>
-      {props.children}
-    </Main>
+  <Route path='/' render={(props) => <Main {...props} /> } />
   )
 }
 

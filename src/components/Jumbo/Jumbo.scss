@@ -1,0 +1,39 @@
+.jumbotron {
+  width: 20%;
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left:0;
+  background-position: center;
+  background-size: cover;
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem;
+  h2 {
+    z-index: 200;
+    position: relative;
+    text-transform: uppercase;
+    &:after{
+        content: '';
+        width: 105%;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        background: rgb(179, 2, 2);
+        top: 100%;
+    }
+  }
+  span {
+    color: rgb(179, 2, 2);
+  }
+}
+
+.type-profile {
+  background-image: url('../../assets/profile.jpg');
+}
+
+.type-portfolio {
+  background-image: url('../../assets/portfolio.jpg');
+}

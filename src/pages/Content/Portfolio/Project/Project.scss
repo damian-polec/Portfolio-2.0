@@ -1,0 +1,14 @@
+.project {
+  position: relative;
+  width: 47%;
+  margin: 3% 1.5%;
+  border: 2px solid rgb(179, 2, 2);
+  img {
+    height: 100%;
+  }
+  &:hover {
+    .layer {
+      visibility: visible;
+    }
+  }
+}

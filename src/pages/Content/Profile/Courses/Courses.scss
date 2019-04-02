@@ -1,0 +1,46 @@
+.courses {
+  background: rgb(179, 2, 2);
+  padding:  .5rem;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 2px solid  #fff;
+    &:after {
+      content: '';
+      width: 33%;
+      height: 2px;
+      position: absolute;
+      right: 0;
+      background: rgb(179, 2, 2);
+      top: 100%;
+    }
+    &:before {
+      content: '';
+      width: 33%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      background: rgb(179, 2, 2);
+      top: 100%;
+    }
+  }
+  .courses-content {
+    .bullet {
+        background: #fff;
+        border-radius: 50%;
+        height: 25px;
+        position: relative;
+        width: 25px;
+        left: 1rem;
+        top: 0;
+        float: left;
+      }
+    .courses-info {
+      padding: 0 .5rem;
+      margin: 0 60px;
+    }
+  }
+}

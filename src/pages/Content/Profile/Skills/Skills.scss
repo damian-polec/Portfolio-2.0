@@ -1,0 +1,50 @@
+.skills {
+  color: rgba(26, 24, 24, 0.747);
+  padding: 1rem;
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 2px solid rgba(26, 24, 24, 0.747);
+    &:after {
+      content: '';
+      width: 33%;
+      height: 2px;
+      position: absolute;
+      right: 0;
+      background: #fff;
+      top: 100%;
+    }
+    &:before {
+      content: '';
+      width: 33%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      background: #fff;
+      top: 100%;
+    }
+  }
+  h3 {
+    text-transform: uppercase;
+  }
+  .main {
+    i {
+      font-size: 3rem;
+      padding: 1rem;
+      transition: .3s;
+      &:hover {
+        color: rgb(179, 2, 2);
+      }
+    }
+  }
+  .list {
+    list-style: none;
+    padding: 0 1rem;
+    line-height: 1.7rem;
+    i {
+      padding: 0 1rem 0 0;
+    }
+  }
+  
+}

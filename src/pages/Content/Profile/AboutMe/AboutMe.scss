@@ -1,0 +1,43 @@
+.about-me{
+  text-align: center;
+  color: rgba(26, 24, 24, 0.747);
+  line-height: 1.5rem;
+  margin: 20px;
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h2 {
+    color: rgba(26, 24, 24, 0.747);
+    text-transform: uppercase;
+    position: relative;
+    border-bottom: 2px solid rgba(26, 24, 24, 0.747);
+    &:after {
+      content: '';
+      width: 33%;
+      height: 2px;
+      position: absolute;
+      right: 0;
+      background: #fff;
+      top: 100%;
+    }
+    &:before {
+      content: '';
+      width: 33%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      background: #fff;
+      top: 100%;
+    }
+  }
+  img {
+    height: 250px;
+    width: 250px;
+    margin: 1rem;
+    border-radius: 50%;
+    border: 1rem solid rgba(179,2,2,.5)
+  }
+}

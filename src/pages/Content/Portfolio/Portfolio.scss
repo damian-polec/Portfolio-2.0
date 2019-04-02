@@ -1,0 +1,38 @@
+.portfolio-page {
+  width:80%;
+  h2 {
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    width:100%;
+    color: rgba(26, 24, 24, 0.747);
+    border-bottom: 2px solid rgba(26, 24, 24, 0.747);
+    &:after {
+      content: '';
+      width: 33%;
+      height: 2px;
+      position: absolute;
+      right: 0;
+      background: #fff;
+      top: 100%;
+    }
+    &:before {
+      content: '';
+      width: 33%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      background: #fff;
+      top: 100%;
+    }
+  }
+  .projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+    img {
+      width: 100%
+    }
+  }
+}

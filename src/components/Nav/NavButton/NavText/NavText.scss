@@ -1,0 +1,27 @@
+.icon-wrapper {
+  color: #fff;
+  z-index: 200;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background: rgba(255, 255, 255, 0.5)
+}
+
+.text-wrapper {
+  margin: 1rem;
+  z-index: 200;
+  display:flex;
+  flex-direction: column;
+  h2, p {
+    margin: 0;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  span {
+    color: #b30202;
+  }
+}

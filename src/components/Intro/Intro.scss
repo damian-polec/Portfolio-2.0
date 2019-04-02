@@ -1,5 +1,8 @@
 .intro {
-  position: relative;
+  position: fixed;
+  z-index: 199;
+  left: 0;
+  top: 0;
   padding: 0;
   width: 50%;
   height: 100%;
@@ -10,6 +13,7 @@
   justify-content: center;
   flex-direction: column;
   color: #fff;
+  transition: all .3s ease-in;
 }
 .intro-text {
   text-align: center;
@@ -20,19 +24,11 @@
     font-weight: bold;
   }
 }
-.social-buttons {
-  z-index: 200;
-  width: 50%;
-  display: flex;
-  justify-content: space-evenly;
-  a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 2.5rem;
-    transition: 0.4s;
-    :hover {
-      transition: 0.4s;
-      color: #b30202;
-    }
-  }
+
+.isVisIntro {
+  transform: translateX(0);
+}
+
+.isNotVisIntro {
+  transform: translateX(-100%);
 }
