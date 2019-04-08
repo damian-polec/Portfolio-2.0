@@ -1,0 +1,17 @@
+.contact-page {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left:30%;
+    width: 70%;
+  }
+}
+
+@media(max-width: 1023px) {
+  .contact-page {
+    .footer {
+      left:0;
+      width: 100%;
+    }
+  }
+}

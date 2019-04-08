@@ -1,13 +1,25 @@
 .content {
   margin-top: 50px;
-}
-
-.content {
-  .profile,
+  .profile-page,
   .portfolio-page,
   .contact-page {
-    width: 80%;
+    width: 70%;
     position: absolute;
-    left: 20%;
+    left: 30%;
+  }
+}
+
+@media(max-width: 1023px) {
+  .content {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    .profile-page,
+    .portfolio-page,
+    .contact-page {
+      width: 100%;
+      position: relative;
+      left: 0;     
+    }
   }
 }

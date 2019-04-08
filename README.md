@@ -1,1 +1,1 @@
-Portfolio Project. Recreating old static portfoli to React
+Portfolio Project. Recreating old static portfolio to React

@@ -1,6 +1,11 @@
 .home {
   height: 100vh;
-  overflow: hidden;
   font-family: 'Roboto Slab', serif;
   display: flex;
+}
+
+@media(max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
 }

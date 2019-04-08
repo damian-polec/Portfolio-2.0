@@ -32,14 +32,16 @@ const form = () => (
         return errors;
       }}
       onSubmit={(values, { setSubmitting }) => {
+        setSubmitting(true);
         fetch('https://formcarry.com/s/7oac9iUJRDb', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
             'Accept' : 'application/json'
           },
-          data: JSON.stringify(values),
+          body: JSON.stringify(values),
           }).then(res => {
+            setSubmitting(false);
             console.log(res)
           }).catch(err => console.log(err))
       }}

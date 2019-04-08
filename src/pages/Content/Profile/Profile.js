@@ -9,7 +9,7 @@ import './Profile.scss';
 
 const profile = (props) => {
   return (
-    <div className='profile'>
+    <div className='profile-page'>
       <AboutMe />
       <Courses />
       <Skills />

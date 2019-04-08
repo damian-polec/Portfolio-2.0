@@ -25,3 +25,19 @@
     color: #b30202;
   }
 }
+
+@media(max-width: 768px) {
+  .icon-wrapper {
+    font-size: 1.5rem;
+    height: 50px;
+    width:50px;
+  }
+  .text-wrapper {
+    h2 {
+      font-size: 1.2rem;
+    }
+    p {
+      font-size: .9rem;
+    }
+  }
+}
